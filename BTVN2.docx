@@ -1,0 +1,5 @@
+Chỉ dùng Fullname làm định danh sẽ làm mất tính toàn vẹn dữ liệu vì:
+- Không đảm bảo duy nhất: nhiều sinh viên có thể trùng tên (Nguyễn Văn A).
+- Hệ thống sẽ không phân biệt được từng người → sai khi mượn/trả sách.
+- Không thể làm khóa chính (Primary Key) → không liên kết chính xác với bảng khác (như PHIEU_MUON).
+Kết quả: dữ liệu bị nhầm lẫn, không xác định đúng “ai đang mượn sách”.
